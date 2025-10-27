@@ -10,6 +10,20 @@ The goal is to provide a clear, visual, and practical confirmation of the CLT us
 
 In both cases, the notebook shows the non-normal population and then plots the normally-distributed sampling distribution, confirming the theorem.
 
+## Visual Demonstration
+
+Here is the Central Limit Theorem in action on the electricity bill data.
+
+**1. The Population Distribution (Skewed)**
+*(This is the histogram of all 10,350 individual bills. As you can see, it is heavily right-skewed.)*
+
+![Population Distribution](images/population_distribution.png)
+
+**2. The Sampling Distribution of the Mean (Normal)**
+*(This is the histogram of the 207 sample means. As the CLT predicts, this distribution is perfectly normal, even though the population it came from was skewed.)*
+
+![Sampling Distribution](images/sampling_distribution.png)
+
 ## Technologies Used
 
 * **Python**
